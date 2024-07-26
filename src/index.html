@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page Festa de Aniversário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/hb.png" alt="Feliz Aniversario">
+            <p class="hero__text">
+                Venha fazer parte do meu aniverário que será em  <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Salão de festas - São Paulo/SP
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        27/06/2025 às 19hrs
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Convites limitados</b>
+                        Confirme sua presença
+                    </li>
+                </ul>
+                <a class="button button--primary" href="#">
+                    Garanta seu convite
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--lugar" >
+        <div class="container" data-aos="fade-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Localização e Ambiente</h2>
+                <p class="event__details__description">
+                
+                </p>O espaço para a festa de aniversário está situado em um ambiente aconchegante e bem localizado, proporcionando fácil acesso para os convidados. É uma área ampla e iluminada, com uma atmosfera vibrante e acolhedora.
+            </div>
+            <img class="event__image" src="./images/lugar.jpg" alt="Espaço interno">
+        </div>
+    </section>
+    <section class="event event--doces-salgados event--image-left" >
+        <div class="container" data-aos="fade-down">
+            <div class="event__details">
+                <h2 class="event__details__title">Doces e salgados</h2>
+                <p class="event__details__description">
+                    Na festa teremos uma deliciosa seleção de doces e salgados: mini cupcakes coloridos, brigadeiros e beijinhos tradicionais, um bolo personalizado, chocolates gourmet e macarons sofisticados, além de tortinhas e mini tarteletes. No lado salgado, servimos coxinhas crocantes, esfihas abertas com recheios variados, quiches individuais, enroladinhos de presunto e queijo, kibe frito e pães de queijo leves. Complemente com mini sanduíches variados e uma seleção de bebidas, incluindo refrigerantes, sucos e opções alcoólicas como coquetéis e espumantes.
+                </p>
+            </div>
+            <img class="event__image" src="./images/doces.jpg" alt="Doces">
+        </div>
+    </section>
+    <section class="event event--jantar">
+        <div class="container" data-aos="fade-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Jantar</h2>
+                <p class="event__details__description">
+                    Para o jantar da festa, oferecemos um menu refinado e delicioso, começando com uma variedade de aperitivos sofisticados e saborosos. O prato principal apresenta opções elegantes que agradam a todos os paladares, seguido por uma seleção de sobremesas irresistíveis para encerrar a refeição com um toque doce. Complementando o jantar, servimos uma seleção de vinhos e espumantes para acompanhar cada prato, garantindo uma experiência gastronômica memorável para todos os convidados.
+                </p>
+            </div>
+            <img class="event__image" src="./images/jantar.jpg" alt="Mesa de jantar">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
